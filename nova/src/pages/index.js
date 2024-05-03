@@ -140,8 +140,8 @@ const IndexPage = () => (
             <p className="text-5xl font-semibold">projects completed</p>
           </div>
           <div className="text-center">
-            <p className="text-5xl font-extralight">10+</p>
-            <p className="text-5xl font-semibold">years of experience</p>
+            <p className="text-5xl font-extralight">100%</p>
+            <p className="text-5xl font-semibold">Guaranteed Satisfaction</p>
           </div>
         </div>
       </div>
@@ -159,30 +159,24 @@ const IndexPage = () => (
           that you would in person.
         </h1>
         <div className="flex grid grid-cols-1 md:grid-cols-2 items-center justify-center">
-          <a
-            href="#"
-            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <div className="block m-5 p-6 bg-white rounded-lg bg-gray-100 dark:border-gray-500 ">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
               Noteworthy technology acquisitions 2021
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so
               far, in reverse chronological order.
             </p>
-          </a>
-          <a
-            href="#"
-            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          </div>
+          <div className="block m-5 p-6 bg-white rounded-lg bg-gray-100 dark:border-gray-500 ">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
               Noteworthy technology acquisitions 2021
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so
               far, in reverse chronological order.
             </p>
-          </a>
+          </div>
         </div>
       </div>
       <div className="flex justify-center py-10">
