@@ -161,7 +161,7 @@ const IndexPage = () => (
         <div className="flex grid grid-cols-1 md:grid-cols-2 items-center justify-center">
           <div className="block m-5 p-6 bg-white rounded-lg bg-gray-100 dark:border-gray-500 ">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-              Noteworthy technology acquisitions 2021
+              Noteworthy technology acquisitions 2022
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so
