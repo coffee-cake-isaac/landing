@@ -145,6 +145,46 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+      <div>
+        <h1 className="md:text-5xl text-center font-light">
+          Your website is often the first impression that your guests and
+          community will have of you. It's important to exude the same{" "}
+          <span className="text-transparent font-extrabold bg-clip-text bg-gradient-to-br from-amber-400 via-amber-400 to-red-400">
+            warmth
+          </span>{" "}
+          and{" "}
+          <span className="text-transparent font-extrabold bg-clip-text bg-gradient-to-br from-lime-400 via-emerald-500 to-teal-700">
+            professionalism
+          </span>{" "}
+          that you would in person.
+        </h1>
+        <div className="flex grid grid-cols-1 md:grid-cols-2 items-center justify-center">
+          <a
+            href="#"
+            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Noteworthy technology acquisitions 2021
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+          </a>
+          <a
+            href="#"
+            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Noteworthy technology acquisitions 2021
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+          </a>
+        </div>
+      </div>
       <div className="flex justify-center py-10">
         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-5 text-xl rounded-xl">
           Let's get to work
