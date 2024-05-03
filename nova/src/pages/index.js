@@ -146,12 +146,12 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center p-5">
             <StaticImage
               src="../images/logo.png"
               placeholder="blurred"
               layout="fixed"
-              width={500}
+              width={400}
               alt="Our logo"
             />
           </div>
