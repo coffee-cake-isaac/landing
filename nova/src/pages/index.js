@@ -6,14 +6,12 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <>
     <div className="max-w-6xl mx-auto">
-      <div className="max-w-6xl mt-20">
-        <div className="flex justify-center"></div>
-        <div className="flex justify-center"></div>
+      <div className="max-w-6xl mt-20 leading-normal">
         <div className="text-5xl md:text-8xl font-bold text-center w-full">
           Your website is your handshake to your
         </div>
-        <h1 class="text-center text-5xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-purple-900 to-blue-200">
-          community.
+        <h1 class="text-center text-5xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-900 to-blue-200 pb-2">
+          community
         </h1>
       </div>
 
@@ -105,7 +103,7 @@ const IndexPage = () => (
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>{" "}
-                  Relentless of Pursuit of Perfection
+                  Relentless Pursuit of Perfection
                 </p>
               </div>
               <div className="inline font-semibold text-xl">
