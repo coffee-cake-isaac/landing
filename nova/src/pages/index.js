@@ -85,7 +85,7 @@ const IndexPage = () => (
           that you would in person.
         </h1>
         <div className="flex grid grid-cols-1 md:grid-cols-2 items-center justify-center">
-          <div className="block m-5 p-6 bg-white rounded-lg bg-slate-100 dark:border-gray-500 ">
+          <div className="block m-5 p-6 rounded-lg bg-slate-100 dark:border-gray-500 ">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center">
               Why Choose Blue Otter Studios?
             </h5>
