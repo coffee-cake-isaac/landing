@@ -14,45 +14,25 @@ const IndexPage = () => (
           community
         </h1>
       </div>
-
-      <div className="flex">
-        <div className="grid md:grid-cols-2">
-          <p className="text-4xl text-center md:text-6xl font-extralight ">
-            Let's make a lasting first impression with your future guests and
-            customers.
-          </p>
-          <div className="flex text-center justify-center">
-            <ul className="flex flex-col justify-around m-2">
-              <li className="">
-                <div class="max-w-sm rounded-xl overflow-hidden shadow-2xl bg-slate-100">
-                  <div class="p-4">
-                    <div class="font-bold text-xl mb-2 underline">
-                      Erin Emily Photography
-                    </div>
-                    <p className="italic text-left">
-                      A beautiful website for a photographer with a heart as big
-                      as her dreams
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="max-w-sm rounded-xl overflow-hidden shadow-2xl bg-slate-100">
-                  <div class="p-4">
-                    <div class="font-bold text-xl mb-2 underline">
-                      Blue Otter Studios
-                    </div>
-                    <p className="italic text-left">
-                      We wouldn't publish a website that we wouldn't use as our
-                      own front door to the world.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
+      <div>
+        <p className="text-6xl font-light max-w-full text-center">
+          Trusted by local business just like yourself
+        </p>
+        <div className="flex max-w-full items-center justify-center">
+          <StaticImage src="../images/eep.png" width={200} alt="Hero" />
+          <StaticImage
+            src="../images/bop.png"
+            placeholder="blurred"
+            width={200}
+            alt="Our logo"
+          />
         </div>
+        <p className="text-xl text-center md:text-3xl font-extralight max-w-full">
+          Let's make a lasting first impression with your future guests and
+          customers.
+        </p>
       </div>
+
       <div>
         <div className="grid grid-cols-1 md:grid-cols-3 py-10">
           <div className="text-center">
@@ -146,10 +126,9 @@ const IndexPage = () => (
           </div>
           <div className="flex justify-center items-center p-5">
             <StaticImage
-              src="../images/logo.png"
+              src="../images/bop.png"
               placeholder="blurred"
-              layout="fixed"
-              width={400}
+              width={1000}
               alt="Our logo"
             />
           </div>
