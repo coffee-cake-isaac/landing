@@ -5,7 +5,9 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <>
+
     <div className="max-w-6xl mx-auto">
+
       <div className="max-w-6xl mt-20 leading-normal">
         <div className="text-5xl md:text-8xl font-bold text-center w-full">
           Your website is your handshake to your
@@ -202,7 +204,7 @@ const IndexPage = () => (
       </div>
       <div className="relative flex py-5 items-center">
         <div className="flex-grow border-t border-gray-400"></div>
-        <span className="flex-shrink mx-4 text-gray-400 text-2xl font-semibold">Let's get to work</span>
+        <span className="flex-shrink mx-4 text-gray-400 text-2xl font-semibold">LET'S GET TO WORK</span>
         <div className="flex-grow border-t border-gray-400"></div>
       </div>
       <section className="bg-white">
@@ -227,17 +229,14 @@ const IndexPage = () => (
           </form>
         </div>
       </section>
-      <div className="flex grid grid-cols-3 justify-center items-center text-center">
+      <div className="flex grid grid-cols-2 justify-center items-center text-center">
         <div>
           <p className="text-xl font-bold my-0">Phone</p>
           <p className="text-xl">1-234-567-8901</p>
         </div>
         <div>
           <p className="text-xl font-bold my-0">Email</p>
-          <p className="text-xl"><a href="mailto:isaac@blueotterstudios.com?subject=Inquiry: Enhancing Your Website for Local Community Impact" target="_blank" >isaac@blueotterstudios.com</a></p>
-        </div><div>
-          <p className="text-xl font-bold my-0">Phone</p>
-          <p className="text-xl">1-234-567-8901</p>
+          <p className="text-xl">isaac@blueotterstudios.com</p>
         </div>
       </div>
     </div>
