@@ -1,134 +1,38 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
-
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
-  {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  },
-]
-
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
-]
-
-const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-  {
-    text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
-  },
-  {
-    text: "Starters",
-    url: "https://gatsbyjs.com/starters/",
-  },
-  {
-    text: "Showcase",
-    url: "https://gatsbyjs.com/showcase/",
-  },
-  {
-    text: "Contributing",
-    url: "https://www.gatsbyjs.com/contributing/",
-  },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
-]
-
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => (
   <>
     <div className="max-w-6xl mx-auto">
-      <div className="max-w-6xl">
-        <div className="flex justify-center"></div>
-        <div className="flex justify-center">
+      <div className="max-w-6xl mt-20 leading-normal">
+        <div className="text-5xl md:text-8xl font-bold text-center w-full">
+          Your website is your handshake to your
+        </div>
+        <h1 class="text-center text-5xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-900 to-blue-200 pb-2">
+          community
+        </h1>
+      </div>
+      <div>
+        <p className="text-6xl font-light max-w-full text-center">
+          Trusted by local business just like yourself
+        </p>
+        <div className="flex max-w-full items-center justify-center">
+          <StaticImage src="../images/eep.png" width={200} alt="Hero" />
           <StaticImage
-            src="../images/logo.png"
+            src="../images/bop.png"
             placeholder="blurred"
-            layout="fixed"
             width={200}
             alt="Our logo"
           />
         </div>
-        <div className="text-5xl md:text-8xl font-bold text-center w-full">
-          Your website is your handshake to your
-        </div>
-        <h1 class="text-center text-5xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-purple-900 to-blue-200">
-          community.
-        </h1>
+        <p className="text-xl text-center md:text-3xl font-extralight max-w-full">
+          Let's make a lasting first impression with your future guests and
+          customers.
+        </p>
       </div>
 
-      <div className="flex">
-        <div className="grid md:grid-cols-2">
-          <p className="text-4xl text-center md:text-6xl font-extralight ">
-            Let's make a lasting first impression with your future guests and
-            customers.
-          </p>
-          <div className="flex text-center justify-center">
-            <ul className="flex flex-col justify-around">
-              <li>
-                <div class="max-w-sm rounded-xl overflow-hidden shadow-2xl">
-                  <div class="p-4">
-                    <div class="font-bold text-xl mb-2 underline">
-                      Erin Emily Photography
-                    </div>
-                    <p className="italic text-left">
-                      A beautiful website for a photographer with a heart as big
-                      as her dreams
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="max-w-sm rounded-xl overflow-hidden shadow-2xl shadow-indigo-500/40">
-                  <div class="p-4">
-                    <div class="font-bold text-xl mb-2 underline">
-                      Blue Otter Studios
-                    </div>
-                    <p className="italic text-left">
-                      We wouldn't publish a website that we wouldn't use as our
-                      own front door to the world.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
       <div>
         <div className="grid grid-cols-1 md:grid-cols-3 py-10">
           <div className="text-center">
@@ -140,13 +44,13 @@ const IndexPage = () => (
             <p className="text-5xl font-semibold">projects completed</p>
           </div>
           <div className="text-center">
-            <p className="text-5xl font-extralight">10+</p>
-            <p className="text-5xl font-semibold">years of experience</p>
+            <p className="text-5xl font-extralight">100%</p>
+            <p className="text-5xl font-semibold">Guaranteed Satisfaction</p>
           </div>
         </div>
       </div>
       <div>
-        <h1 className="md:text-5xl text-center font-light">
+        <h1 className="text-3xl md:text-5xl text-center font-light">
           Your website is often the first impression that your guests and
           community will have of you. It's important to exude the same{" "}
           <span className="text-transparent font-extrabold bg-clip-text bg-gradient-to-br from-amber-400 via-amber-400 to-red-400">
@@ -158,47 +62,187 @@ const IndexPage = () => (
           </span>{" "}
           that you would in person.
         </h1>
+        <section class="bg-white">
+          <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <h2 class="mb-8 text-4xl tracking-tight font-extrabold">Frequently asked questions</h2>
+            <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
+              <div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    What makes a website so important for local businesses?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">Your website is your handshake with your community. It's often your first impression of the same quality you provide within the walls of your business. It's imperative to make a long, good and lasting impression.</p>
+                </div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    How will a partnership help my business succeed?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">We believe we offer a world-class website with a focus on performance, design and delivering information. Your guests find what they need without having to struggle through slow load times or complicated designs.</p>
+                </div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    How does support work?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">You are our number one priority. We take great pride in providing the best support through text, email or phone calls. This service is available to all clients at all times, free of charge.</p>
+                </div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    I have more than one business. How does pricing and maintenance work?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">If you're interested in creating a web space for all of your businesses, we'll work together to provide not only the best pricing but the best deliverable timeline.</p>
+                </div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    How can I ensure that my website is cutting-edge and worry-free?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">I'm an experienced software engineer by day. I work vigilantly to stay up-to-date with the latest trends and technology. My goal is to reduce friction for your business to help you thrive within the community.</p>
+                </div>
+              </div>
+              <div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    What does the process look like?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">After an initial meet-and-greet, contracts are signed to protect both parties. Following successful contract completion, work is immediately started with four deliverable items.</p>
+                  <p class="text-gray-500 dark:text-gray-400">1. Initial design mock up. This is to be taken as extremely fluid meaning sweeping changes can occur. Placement text and images will exist to provide a feel of being completed and polished. We'll lock the design down here.</p>
+                  <p class="text-gray-500 dark:text-gray-400">2. After design lockdown, we'll begin implementing assets relative to your business. These assets are typically provided by the business, but can be supplied for an additional fee.</p>
+                  <p class="text-gray-500 dark:text-gray-400">3. Final Review. After the assets are placed in and the website has been polished and optimized, we'll have a final design discussion to change verbiage, photos, or minor tweaks.</p>
+                  <p class="text-gray-500 dark:text-gray-400">4. Go live and maintenace. After final review, we will publish the updated website and provide maintenance according to the aforementioned contract. All worry-free and hands-off for your business.</p>
+                </div>
+
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    What is the difference between Windster and Tailwind UI?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">Although both Windster and Tailwind UI are built for integration with Tailwind CSS, the main difference is in the design, the pages, the extra components and UI elements that Windster includes.</p>
+                  <p class="text-gray-500 dark:text-gray-400">Additionally, Windster is a project that is still in development, and later it will include both the application, marketing, and e-commerce UI interfaces.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <div className="flex grid grid-cols-1 md:grid-cols-2 items-center justify-center">
-          <a
-            href="#"
-            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+          <div className="block m-5 p-6 rounded-lg bg-slate-100 dark:border-gray-500 ">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center">
+              Why Choose Blue Otter Studios?
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
-            </p>
-          </a>
-          <a
-            href="#"
-            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
-            </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
-            </p>
-          </a>
+            <div className="my-5">
+              <div className="inline font-semibold text-xl">
+                <p>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="text-green-400 inline"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>{" "}
+                  Relentless Pursuit of Perfection
+                </p>
+              </div>
+              <div className="inline font-semibold text-xl">
+                <p>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="text-green-400 inline"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>{" "}
+                  Unique websites via hand-crafted websites
+                </p>
+              </div>
+              <div className="inline font-semibold text-xl">
+                <p>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="text-green-400 inline"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>{" "}
+                  Seamless Collaboration
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex justify-center items-center p-5">
+            <StaticImage
+              src="../images/bop.png"
+              placeholder="blurred"
+              width={1000}
+              alt="Our logo"
+            />
+          </div>
         </div>
       </div>
-      <div className="flex justify-center py-10">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-5 text-xl rounded-xl">
-          Let's get to work
-        </button>
+      <div class="relative flex py-5 items-center">
+        <div class="flex-grow border-t border-gray-400"></div>
+        <span class="flex-shrink mx-4 text-gray-400 text-2xl font-semibold">Let's get to work</span>
+        <div class="flex-grow border-t border-gray-400"></div>
+      </div>
+      <section class="bg-white">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Contact Us</h2>
+          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Interested in improving your web presence and propelling your business forward?</p>
+          <form name="contact" class="space-y-8" netlify>
+            <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
+              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="isaac@blueotterstudios.com" required />
+            </div>
+            <div>
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900">Subject</label>
+              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Let us know how we can help you" required />
+            </div>
+            <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+            </div>
+            <button type="submit" class="py-3 px-5 text-sm font-medium text-center bg-blue-500 text-white max-w-full w-full min-w-full rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Send message</button>
+          </form>
+        </div>
+      </section>
+      <div className="flex grid grid-cols-3 justify-center items-center text-center">
+        <div>
+          <p className="text-xl font-bold my-0">Phone</p>
+          <p className="text-xl">1-234-567-8901</p>
+        </div>
+        <div>
+          <p className="text-xl font-bold my-0">Email</p>
+          <p className="text-xl"><a href="mailto:isaac@blueotterstudios.com?subject=Inquiry: Enhancing Your Website for Local Community Impact" target="_blank" >isaac@blueotterstudios.com</a></p>
+        </div><div>
+          <p className="text-xl font-bold my-0">Phone</p>
+          <p className="text-xl">1-234-567-8901</p>
+        </div>
       </div>
     </div>
   </>
 )
 
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
 export const Head = () => <Seo title="Home" />
 
 export default IndexPage
