@@ -17,7 +17,7 @@ const IndexPage = () => (
         </h1>
       </div>
       <div>
-        <p className="text-6xl font-light max-w-full text-center">
+        <p className="text-6xl font-light max-w-full text-center mx-5">
           Trusted by local business just like yourself
         </p>
         <div className="flex max-w-full items-center justify-center">
@@ -52,7 +52,7 @@ const IndexPage = () => (
         </div>
       </div>
       <div>
-        <h1 className="text-3xl md:text-5xl text-center font-light">
+        <h1 className="text-3xl md:text-5xl text-center font-light mx-5">
           Your website is often the first impression that your guests and
           community will have of you. It's important to exude the same{" "}
           <span className="text-transparent font-extrabold bg-clip-text bg-gradient-to-br from-amber-400 via-amber-400 to-red-400">
@@ -116,15 +116,6 @@ const IndexPage = () => (
                   <p class="text-gray-500 dark:text-gray-400">2. After design lockdown, we'll begin implementing assets relative to your business. These assets are typically provided by the business, but can be supplied for an additional fee.</p>
                   <p class="text-gray-500 dark:text-gray-400">3. Final Review. After the assets are placed in and the website has been polished and optimized, we'll have a final design discussion to change verbiage, photos, or minor tweaks.</p>
                   <p class="text-gray-500 dark:text-gray-400">4. Go live and maintenace. After final review, we will publish the updated website and provide maintenance according to the aforementioned contract. All worry-free and hands-off for your business.</p>
-                </div>
-
-                <div class="mb-10">
-                  <h3 class="flex items-center mb-4 text-lg font-medium">
-                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                    What is the difference between Windster and Tailwind UI?
-                  </h3>
-                  <p class="text-gray-500 dark:text-gray-400">Although both Windster and Tailwind UI are built for integration with Tailwind CSS, the main difference is in the design, the pages, the extra components and UI elements that Windster includes.</p>
-                  <p class="text-gray-500 dark:text-gray-400">Additionally, Windster is a project that is still in development, and later it will include both the application, marketing, and e-commerce UI interfaces.</p>
                 </div>
               </div>
             </div>
@@ -229,7 +220,7 @@ const IndexPage = () => (
           </form>
         </div>
       </section>
-      <div className="flex grid grid-cols-2 justify-center items-center text-center">
+      <div className="flex grid grid-cols-2 justify-around items-center text-center">
         <div>
           <p className="text-xl font-bold my-0">Phone</p>
           <p className="text-xl">1-234-567-8901</p>
