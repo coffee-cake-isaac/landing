@@ -62,6 +62,72 @@ const IndexPage = () => (
           </span>{" "}
           that you would in person.
         </h1>
+        <section class="bg-white">
+          <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <h2 class="mb-8 text-4xl tracking-tight font-extrabold">Frequently asked questions</h2>
+            <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
+              <div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    What makes a website so important for local businesses?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">Your website is your handshake with your community. It's often your first impression of the same quality you provide within the walls of your business. It's imperative to make a long, good and lasting impression.</p>
+                </div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    How will a partnership help my business succeed?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">We believe we offer a world-class website with a focus on performance, design and delivering information. Your guests find what they need without having to struggle through slow load times or complicated designs.</p>
+                </div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    How does support work?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">You are our number one priority. We take great pride in providing the best support through text, email or phone calls. This service is available to all clients at all times, free of charge.</p>
+                </div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    I have more than one business. How does pricing and maintenance work?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">If you're interested in creating a web space for all of your businesses, we'll work together to provide not only the best pricing but the best deliverable timeline.</p>
+                </div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    How can I ensure that my website is cutting-edge and worry-free?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">I'm an experienced software engineer by day. I work vigilantly to stay up-to-date with the latest trends and technology. My goal is to reduce friction for your business to help you thrive within the community.</p>
+                </div>
+              </div>
+              <div>
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    What does the process look like?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">After an initial meet-and-greet, contracts are signed to protect both parties. Following successful contract completion, work is immediately started with four deliverable items.</p>
+                  <p class="text-gray-500 dark:text-gray-400">1. Initial design mock up. This is to be taken as extremely fluid meaning sweeping changes can occur. Placement text and images will exist to provide a feel of being completed and polished. We'll lock the design down here.</p>
+                  <p class="text-gray-500 dark:text-gray-400">2. After design lockdown, we'll begin implementing assets relative to your business. These assets are typically provided by the business, but can be supplied for an additional fee.</p>
+                  <p class="text-gray-500 dark:text-gray-400">3. Final Review. After the assets are placed in and the website has been polished and optimized, we'll have a final design discussion to change verbiage, photos, or minor tweaks.</p>
+                  <p class="text-gray-500 dark:text-gray-400">4. Go live and maintenace. After final review, we will publish the updated website and provide maintenance according to the aforementioned contract. All worry-free and hands-off for your business.</p>
+                </div>
+
+                <div class="mb-10">
+                  <h3 class="flex items-center mb-4 text-lg font-medium">
+                    <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                    What is the difference between Windster and Tailwind UI?
+                  </h3>
+                  <p class="text-gray-500 dark:text-gray-400">Although both Windster and Tailwind UI are built for integration with Tailwind CSS, the main difference is in the design, the pages, the extra components and UI elements that Windster includes.</p>
+                  <p class="text-gray-500 dark:text-gray-400">Additionally, Windster is a project that is still in development, and later it will include both the application, marketing, and e-commerce UI interfaces.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <div className="flex grid grid-cols-1 md:grid-cols-2 items-center justify-center">
           <div className="block m-5 p-6 rounded-lg bg-slate-100 dark:border-gray-500 ">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center">
@@ -134,10 +200,44 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="flex justify-center py-10">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-5 text-xl rounded-xl">
-          Let's get to work
-        </button>
+      <div class="relative flex py-5 items-center">
+        <div class="flex-grow border-t border-gray-400"></div>
+        <span class="flex-shrink mx-4 text-gray-400 text-2xl font-semibold">Let's get to work</span>
+        <div class="flex-grow border-t border-gray-400"></div>
+      </div>
+      <section class="bg-white">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Contact Us</h2>
+          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Interested in improving your web presence and propelling your business forward?</p>
+          <form name="contact" class="space-y-8" netlify>
+            <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
+              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="isaac@blueotterstudios.com" required />
+            </div>
+            <div>
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900">Subject</label>
+              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Let us know how we can help you" required />
+            </div>
+            <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+            </div>
+            <button type="submit" class="py-3 px-5 text-sm font-medium text-center bg-blue-500 text-white max-w-full w-full min-w-full rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Send message</button>
+          </form>
+        </div>
+      </section>
+      <div className="flex grid grid-cols-3 justify-center items-center text-center">
+        <div>
+          <p className="text-xl font-bold my-0">Phone</p>
+          <p className="text-xl">1-234-567-8901</p>
+        </div>
+        <div>
+          <p className="text-xl font-bold my-0">Email</p>
+          <p className="text-xl"><a href="mailto:isaac@blueotterstudios.com?subject=Inquiry: Enhancing Your Website for Local Community Impact" target="_blank" >isaac@blueotterstudios.com</a></p>
+        </div><div>
+          <p className="text-xl font-bold my-0">Phone</p>
+          <p className="text-xl">1-234-567-8901</p>
+        </div>
       </div>
     </div>
   </>
